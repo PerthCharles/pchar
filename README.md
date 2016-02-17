@@ -91,6 +91,7 @@ d. 瓶颈
 
 ### 附录： 真实网络探测案例一则  
 已隐去IP地址信息，并且使用ICMP协议探测。目前感觉用ICMP探测比用UDP探测会遇到更少的no response的情况。  
+
     # ./pchar X.X.X.X -I 256 -v -R 1 -p ipv4icmp
     pchar to X.X.X.X using ICMP/IPv4 (raw sockets)
     Using raw socket input
